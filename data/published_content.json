@@ -1,0 +1,2048 @@
+{
+  "success": true,
+  "data": {
+    "version": 14,
+    "publishedAt": 1789860355432,
+    "summary": "Restauração para o estado da Versão #1",
+    "pages": [
+      {
+        "id": "page-home",
+        "slug": "/",
+        "title": "Biazotto Gestão de Viagens e Milhas",
+        "meta_description": "Gestão premium de viagens e milhas para quem valoriza tempo, conforto e praticidade.",
+        "order_index": 0,
+        "is_published": 0,
+        "sections": [
+          {
+            "id": "sec-home-hero",
+            "section_key": "hero",
+            "section_type": "hero",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 0,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-h-hero-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Gestão de viagens e milhas"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-hero-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Sua viagem começa com uma decisão bem cuidada."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-hero-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "A Biazotto assume a estratégia, organiza os detalhes e acompanha cada etapa para que você aproveite melhor seu tempo, seus benefícios e sua viagem."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-hero-btn1",
+                "block_key": "cta_primary",
+                "block_type": "button",
+                "content": {
+                  "text": "Solicitar análise",
+                  "url": "/contato/",
+                  "style": "gold"
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-hero-btn2",
+                "block_key": "cta_secondary",
+                "block_type": "button",
+                "content": {
+                  "text": "Conheça a gestão",
+                  "url": "/servicos/",
+                  "style": "secondary"
+                },
+                "visual_config": {},
+                "order_index": 4,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-hero-note",
+                "block_key": "hero_note",
+                "block_type": "text",
+                "content": {
+                  "text": "Tempo · conforto · praticidade"
+                },
+                "visual_config": {},
+                "order_index": 5,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-home-solucao",
+            "section_key": "solucao",
+            "section_type": "cards_grid",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 1,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-h-sol-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "A solução"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-sol-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Você escolhe o destino. Nós cuidamos do caminho."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-sol-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Viajar bem exige decisões coordenadas. A Biazotto analisa seu perfil, considera suas prioridades e conduz a estratégia de viagens e milhas com clareza."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-sol-card1",
+                "block_key": "card_1",
+                "block_type": "card",
+                "content": {
+                  "num": "01 · ESTRATÉGIA",
+                  "title": "Uma visão completa antes de cada decisão",
+                  "text": "Cartões, programas, preferências e planos de viagem considerados em conjunto."
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-sol-card2",
+                "block_key": "card_2",
+                "block_type": "card",
+                "content": {
+                  "num": "02 · EXECUÇÃO",
+                  "title": "Do planejamento à emissão",
+                  "text": "Alternativas apresentadas com condições claras para uma escolha segura."
+                },
+                "visual_config": {},
+                "order_index": 4,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-sol-card3",
+                "block_key": "card_3",
+                "block_type": "card",
+                "content": {
+                  "num": "03 · ACOMPANHAMENTO",
+                  "title": "Continuidade em cada etapa",
+                  "text": "Uma gestão organizada para você não precisar acompanhar regras e oportunidades sozinho."
+                },
+                "visual_config": {},
+                "order_index": 5,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-home-paraquem",
+            "section_key": "paraquem",
+            "section_type": "features",
+            "background_style": "off",
+            "padding_preset": "normal",
+            "order_index": 2,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-h-pq-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Para quem é"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-pq-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Feita para quem prefere delegar com confiança."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-pq-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Uma gestão pensada para pessoas e famílias que viajam com regularidade, têm uma rotina intensa e valorizam conforto sem abrir mão de decisões responsáveis."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-pq-f1",
+                "block_key": "feat_1",
+                "block_type": "feature",
+                "content": {
+                  "num": "01",
+                  "title": "Agenda cheia",
+                  "text": "Você quer preservar tempo e não pesquisar cada regra ou tarifa."
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-pq-f2",
+                "block_key": "feat_2",
+                "block_type": "feature",
+                "content": {
+                  "num": "02",
+                  "title": "Viagens recorrentes",
+                  "text": "Suas escolhas precisam considerar preferências e planos ao longo do tempo."
+                },
+                "visual_config": {},
+                "order_index": 4,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-pq-f3",
+                "block_key": "feat_3",
+                "block_type": "feature",
+                "content": {
+                  "num": "03",
+                  "title": "Pontos e benefícios",
+                  "text": "Você já possui recursos, mas quer aproveitá-los com mais clareza."
+                },
+                "visual_config": {},
+                "order_index": 5,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-pq-f4",
+                "block_key": "feat_4",
+                "block_type": "feature",
+                "content": {
+                  "num": "04",
+                  "title": "Cuidado individual",
+                  "text": "Você prefere conversar com quem conhece seu perfil e suas prioridades."
+                },
+                "visual_config": {},
+                "order_index": 6,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-home-split",
+            "section_key": "split",
+            "section_type": "split",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 3,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-h-sp-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "O que muda"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-sp-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Menos decisões fragmentadas. Mais tranquilidade para viajar."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-sp-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Você deixa de acompanhar regras, validades e possibilidades isoladamente. A Biazotto organiza as informações e apresenta caminhos coerentes com sua realidade."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-sp-link",
+                "block_key": "link",
+                "block_type": "button",
+                "content": {
+                  "text": "Ver o que está incluído",
+                  "url": "/servicos/",
+                  "style": "text-link"
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-sp-image",
+                "block_key": "image",
+                "block_type": "image",
+                "content": {
+                  "src": "/assets/hero.webp",
+                  "alt": "Terminal de aeroporto com luz natural"
+                },
+                "visual_config": {},
+                "order_index": 4,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-home-metodologia",
+            "section_key": "metodologia",
+            "section_type": "steps",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 4,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-h-met-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Metodologia"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-met-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Um processo claro e contínuo."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-met-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Cada etapa existe para transformar informações dispersas em decisões simples, com o próximo passo sempre visível."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-met-s1",
+                "block_key": "step_1",
+                "block_type": "step",
+                "content": {
+                  "title": "Diagnóstico",
+                  "text": "Entendemos seu perfil, recursos e prioridades."
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-met-s2",
+                "block_key": "step_2",
+                "block_type": "step",
+                "content": {
+                  "title": "Estratégia",
+                  "text": "Definimos critérios e possibilidades adequadas."
+                },
+                "visual_config": {},
+                "order_index": 4,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-met-s3",
+                "block_key": "step_3",
+                "block_type": "step",
+                "content": {
+                  "title": "Execução",
+                  "text": "Conduzimos as escolhas autorizadas com cuidado."
+                },
+                "visual_config": {},
+                "order_index": 5,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-met-s4",
+                "block_key": "step_4",
+                "block_type": "step",
+                "content": {
+                  "title": "Acompanhamento",
+                  "text": "Mantemos a gestão organizada ao longo do tempo."
+                },
+                "visual_config": {},
+                "order_index": 6,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-met-link",
+                "block_key": "link",
+                "block_type": "button",
+                "content": {
+                  "text": "Conhecer o processo completo",
+                  "url": "/como-funciona/",
+                  "style": "text-link"
+                },
+                "visual_config": {},
+                "order_index": 7,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-home-cta",
+            "section_key": "cta",
+            "section_type": "cta",
+            "background_style": "off",
+            "padding_preset": "normal",
+            "order_index": 5,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-h-cta-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Próximo passo"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-cta-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Vamos entender como você viaja."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-cta-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Conte um pouco sobre sua rotina e suas prioridades. A conversa inicial ajuda a identificar como a gestão pode cuidar melhor das suas próximas viagens."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-h-cta-btn",
+                "block_key": "button",
+                "block_type": "button",
+                "content": {
+                  "text": "Solicitar análise",
+                  "url": "/contato/",
+                  "style": "dark"
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "page-sobre",
+        "slug": "/sobre/",
+        "title": "A Biazotto | Gestão de Viagens e Milhas",
+        "meta_description": "Conheça a visão, os princípios e a abordagem consultiva da Biazotto.",
+        "order_index": 1,
+        "is_published": 0,
+        "sections": [
+          {
+            "id": "sec-sob-hero",
+            "section_key": "hero",
+            "section_type": "page_hero",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 0,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-sob-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "A Biazotto"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Gestão de viagens é cuidado estratégico."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "A Biazotto organiza decisões, recursos e preferências para tornar cada jornada mais simples, confortável e coerente com a vida do cliente."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-sob-quote",
+            "section_key": "quote",
+            "section_type": "quote",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 1,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-sob-q-text",
+                "block_key": "quote_text",
+                "block_type": "quote",
+                "content": {
+                  "text": "Não ensinamos você a acompanhar cada programa. <strong>Assumimos a estratégia</strong> para que seu tempo continue onde mais importa."
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-sob-visao",
+            "section_key": "visao",
+            "section_type": "values",
+            "background_style": "off",
+            "padding_preset": "normal",
+            "order_index": 2,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-sob-vis-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Nossa visão"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-vis-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Viajar bem não deveria exigir improviso."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-vis-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Pontos, cartões, datas, regras e preferências formam um conjunto. Quando cada decisão é tomada isoladamente, tempo e oportunidades se perdem. Nossa abordagem reúne essas informações e as transforma em um plano claro."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-vis-v1",
+                "block_key": "v1",
+                "block_type": "value",
+                "content": {
+                  "title": "Discrição",
+                  "text": "Comunicação sóbria e respeito à sua rotina."
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-vis-v2",
+                "block_key": "v2",
+                "block_type": "value",
+                "content": {
+                  "title": "Precisão",
+                  "text": "Condições e próximos passos apresentados com clareza."
+                },
+                "visual_config": {},
+                "order_index": 4,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-vis-v3",
+                "block_key": "v3",
+                "block_type": "value",
+                "content": {
+                  "title": "Cuidado",
+                  "text": "Decisões alinhadas ao perfil de cada cliente."
+                },
+                "visual_config": {},
+                "order_index": 5,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-vis-v4",
+                "block_key": "v4",
+                "block_type": "value",
+                "content": {
+                  "title": "Consistência",
+                  "text": "Acompanhamento que não termina na emissão."
+                },
+                "visual_config": {},
+                "order_index": 6,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-sob-abordagem",
+            "section_key": "abordagem",
+            "section_type": "cards_grid",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 3,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-sob-ab-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Nossa abordagem"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-ab-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Consultiva no contato. Técnica na decisão."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-ab-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Você não precisa dominar termos de fidelidade nem comparar dezenas de possibilidades. Explicamos o que importa, apresentamos as condições e conduzimos o que for autorizado."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-ab-c1",
+                "block_key": "card_1",
+                "block_type": "card",
+                "content": {
+                  "num": "01",
+                  "title": "Entender antes de propor",
+                  "text": "Seu perfil, suas prioridades e seus planos orientam a estratégia."
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-ab-c2",
+                "block_key": "card_2",
+                "block_type": "card",
+                "content": {
+                  "num": "02",
+                  "title": "Explicar sem complicar",
+                  "text": "Informação suficiente para decidir, sem jargão desnecessário."
+                },
+                "visual_config": {},
+                "order_index": 4,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-ab-c3",
+                "block_key": "card_3",
+                "block_type": "card",
+                "content": {
+                  "num": "03",
+                  "title": "Cuidar do processo",
+                  "text": "Organização e continuidade em todas as etapas combinadas."
+                },
+                "visual_config": {},
+                "order_index": 5,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-sob-cta",
+            "section_key": "cta",
+            "section_type": "cta",
+            "background_style": "off",
+            "padding_preset": "normal",
+            "order_index": 4,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-sob-cta-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Conversa inicial"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-cta-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Conheça uma gestão pensada para a sua rotina."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-cta-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "O primeiro passo é entender como você viaja e o que deseja delegar."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-sob-cta-btn",
+                "block_key": "button",
+                "block_type": "button",
+                "content": {
+                  "text": "Falar com a Biazotto",
+                  "url": "/contato/",
+                  "style": "dark"
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "page-servicos",
+        "slug": "/servicos/",
+        "title": "Serviços | Biazotto",
+        "meta_description": "Conheça a gestão consultiva de viagens, pontos, milhas e benefícios da Biazotto.",
+        "order_index": 2,
+        "is_published": 0,
+        "sections": [
+          {
+            "id": "sec-srv-hero",
+            "section_key": "hero",
+            "section_type": "page_hero",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 0,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-srv-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Serviços"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-srv-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Uma gestão completa, sem excesso de complexidade."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-srv-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Planejamento, análise e execução reunidos em um atendimento individual, com escopo definido de acordo com seu perfil."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-srv-blocks",
+            "section_key": "services",
+            "section_type": "service_blocks",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 1,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-srv-b1",
+                "block_key": "serv_1",
+                "block_type": "service_item",
+                "content": {
+                  "eyebrow": "01 · Diagnóstico",
+                  "title": "Organização do seu cenário atual",
+                  "items": [
+                    "Entendimento do perfil de consumo e viagem",
+                    "Mapeamento de cartões, programas, saldos e validades",
+                    "Registro de destinos, preferências e prioridades",
+                    "Identificação de pontos que precisam de atenção"
+                  ]
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-srv-b2",
+                "block_key": "serv_2",
+                "block_type": "service_item",
+                "content": {
+                  "eyebrow": "02 · Estratégia",
+                  "title": "Decisões alinhadas ao seu objetivo",
+                  "items": [
+                    "Direcionamento para acúmulo e uso de pontos e milhas",
+                    "Comparação entre pagamento em dinheiro e resgate",
+                    "Planejamento das viagens futuras informadas",
+                    "Apresentação clara das condições de cada alternativa"
+                  ]
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-srv-b3",
+                "block_key": "serv_3",
+                "block_type": "service_item",
+                "content": {
+                  "eyebrow": "03 · Execução",
+                  "title": "Apoio na jornada de viagem",
+                  "items": [
+                    "Pesquisa e emissão conforme o escopo contratado",
+                    "Organização das solicitações e confirmações",
+                    "Apoio com itens complementares previamente combinados",
+                    "Acompanhamento dos próximos passos"
+                  ]
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-srv-limites",
+            "section_key": "limites",
+            "section_type": "statement",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 2,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-srv-lim-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "O que não prometemos"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-srv-lim-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Clareza também significa reconhecer limites."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-srv-lim-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Assentos em milhas, tarifas e regras mudam. A Biazotto analisa as condições disponíveis no momento e apresenta alternativas, sem promessas de disponibilidade ou economia garantida."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-srv-cta",
+            "section_key": "cta",
+            "section_type": "cta",
+            "background_style": "off",
+            "padding_preset": "normal",
+            "order_index": 3,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-srv-cta-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Escopo personalizado"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-srv-cta-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Descubra o formato adequado para você."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-srv-cta-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Na conversa inicial, identificamos suas necessidades e explicamos quais atividades podem fazer parte da gestão."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-srv-cta-btn",
+                "block_key": "button",
+                "block_type": "button",
+                "content": {
+                  "text": "Solicitar análise",
+                  "url": "/contato/",
+                  "style": "dark"
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "page-processo",
+        "slug": "/como-funciona/",
+        "title": "Como funciona | Biazotto",
+        "meta_description": "Entenda o processo de gestão de viagens e milhas da Biazotto.",
+        "order_index": 3,
+        "is_published": 0,
+        "sections": [
+          {
+            "id": "sec-prc-hero",
+            "section_key": "hero",
+            "section_type": "page_hero",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 0,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-prc-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Como funciona"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Um processo simples de acompanhar e fácil de delegar."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Você participa das decisões essenciais. A organização técnica e o acompanhamento ficam com a Biazotto."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-prc-timeline",
+            "section_key": "timeline",
+            "section_type": "timeline",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 1,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-prc-t1",
+                "block_key": "step_1",
+                "block_type": "timeline_item",
+                "content": {
+                  "num": "01",
+                  "title": "Conversa inicial",
+                  "text": "Entendemos sua rotina, frequência de viagens, prioridades e o que você deseja delegar."
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-t2",
+                "block_key": "step_2",
+                "block_type": "timeline_item",
+                "content": {
+                  "num": "02",
+                  "title": "Diagnóstico",
+                  "text": "Organizamos as informações relevantes sobre cartões, programas, saldos, validade e preferências."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-t3",
+                "block_key": "step_3",
+                "block_type": "timeline_item",
+                "content": {
+                  "num": "03",
+                  "title": "Estratégia personalizada",
+                  "text": "Definimos critérios de decisão e um plano coerente com os objetivos informados."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-t4",
+                "block_key": "step_4",
+                "block_type": "timeline_item",
+                "content": {
+                  "num": "04",
+                  "title": "Solicitação de viagem",
+                  "text": "Você informa destino, datas, passageiros e necessidades específicas."
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-t5",
+                "block_key": "step_5",
+                "block_type": "timeline_item",
+                "content": {
+                  "num": "05",
+                  "title": "Análise de alternativas",
+                  "text": "Comparamos caminhos e apresentamos condições relevantes em linguagem clara."
+                },
+                "visual_config": {},
+                "order_index": 4,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-t6",
+                "block_key": "step_6",
+                "block_type": "timeline_item",
+                "content": {
+                  "num": "06",
+                  "title": "Autorização e execução",
+                  "text": "Após sua escolha, conduzimos as ações previstas no escopo contratado."
+                },
+                "visual_config": {},
+                "order_index": 5,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-t7",
+                "block_key": "step_7",
+                "block_type": "timeline_item",
+                "content": {
+                  "num": "07",
+                  "title": "Acompanhamento",
+                  "text": "Mantemos registros e próximos passos organizados para dar continuidade à gestão."
+                },
+                "visual_config": {},
+                "order_index": 6,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-prc-quote",
+            "section_key": "quote",
+            "section_type": "quote",
+            "background_style": "off",
+            "padding_preset": "normal",
+            "order_index": 2,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-prc-q-text",
+                "block_key": "quote_text",
+                "block_type": "quote",
+                "content": {
+                  "text": "Você informa o que precisa e autoriza a escolha. <strong>A Biazotto organiza o caminho.</strong>"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-prc-cta",
+            "section_key": "cta",
+            "section_type": "cta",
+            "background_style": "off",
+            "padding_preset": "normal",
+            "order_index": 3,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-prc-cta-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Comece pelo diagnóstico"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-cta-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Conte como você viaja hoje."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-cta-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Com essas informações, conseguimos orientar o próximo passo com clareza."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prc-cta-btn",
+                "block_key": "button",
+                "block_type": "button",
+                "content": {
+                  "text": "Iniciar conversa",
+                  "url": "/contato/",
+                  "style": "dark"
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "page-insights",
+        "slug": "/insights/",
+        "title": "Insights | Biazotto",
+        "meta_description": "Conteúdos sobre gestão de viagens, pontos, milhas e decisões mais conscientes.",
+        "order_index": 4,
+        "is_published": 0,
+        "sections": [
+          {
+            "id": "sec-ins-hero",
+            "section_key": "hero",
+            "section_type": "page_hero",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 0,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-ins-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Insights"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-ins-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Informação para decisões mais conscientes."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-ins-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Conteúdos claros sobre viagens, pontos, benefícios e planejamento."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-ins-content",
+            "section_key": "content",
+            "section_type": "insights_empty",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 1,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-ins-img",
+                "block_key": "icon",
+                "block_type": "image",
+                "content": {
+                  "src": "/assets/marca-quadrada.png",
+                  "alt": "Marca Biazotto"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-ins-h2",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Novos conteúdos serão publicados em breve."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-ins-p",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Estamos preparando materiais objetivos para ajudar você a compreender as decisões que realmente importam."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-ins-link",
+                "block_key": "link",
+                "block_type": "button",
+                "content": {
+                  "text": "Falar com a Biazotto",
+                  "url": "/contato/",
+                  "style": "text-link"
+                },
+                "visual_config": {},
+                "order_index": 3,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "page-contato",
+        "slug": "/contato/",
+        "title": "Solicitar análise | Biazotto",
+        "meta_description": "Conte como você viaja e solicite uma conversa inicial com a Biazotto.",
+        "order_index": 5,
+        "is_published": 0,
+        "sections": [
+          {
+            "id": "sec-cnt-hero",
+            "section_key": "hero",
+            "section_type": "page_hero",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 0,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-cnt-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Contato"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-cnt-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Vamos entender como você viaja."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-cnt-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Preencha as informações iniciais. Elas ajudam a preparar uma conversa mais objetiva sobre sua rotina e suas prioridades."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-cnt-form",
+            "section_key": "form_section",
+            "section_type": "form_wrap",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 1,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-cnt-intro-eyebrow",
+                "block_key": "intro_eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Conversa inicial"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-cnt-intro-title",
+                "block_key": "intro_title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Seu próximo passo começa aqui."
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-cnt-intro-desc",
+                "block_key": "intro_desc",
+                "block_type": "text",
+                "content": {
+                  "text": "Não envie senhas, dados completos de cartão, CPF ou códigos de segurança. Esses dados não são necessários neste contato."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "page-privacidade",
+        "slug": "/privacidade/",
+        "title": "Política de Privacidade | Biazotto",
+        "meta_description": "Saiba como a Biazotto trata os dados enviados pelo site.",
+        "order_index": 6,
+        "is_published": 0,
+        "sections": [
+          {
+            "id": "sec-prv-hero",
+            "section_key": "hero",
+            "section_type": "page_hero",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 0,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-prv-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Informações legais"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prv-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Política de Privacidade"
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-prv-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Transparência sobre as informações enviadas neste site."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-prv-content",
+            "section_key": "legal_content",
+            "section_type": "legal_article",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 1,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-prv-body",
+                "block_key": "article_body",
+                "block_type": "legal_text",
+                "content": {
+                  "sections": [
+                    {
+                      "title": "1. Dados coletados",
+                      "text": "O formulário pode coletar nome, telefone, e-mail, frequência aproximada de viagens, objetivo do contato e mensagem opcional."
+                    },
+                    {
+                      "title": "2. Finalidade",
+                      "text": "As informações são usadas para responder à solicitação, entender o perfil inicial e organizar o contato comercial solicitado por você."
+                    },
+                    {
+                      "title": "3. Compartilhamento",
+                      "text": "Os dados não devem ser vendidos. Fornecedores técnicos podem processá-los apenas quando necessários ao funcionamento do site e do atendimento, mediante medidas adequadas de proteção."
+                    },
+                    {
+                      "title": "4. Retenção e segurança",
+                      "text": "As informações devem ser mantidas apenas pelo período necessário às finalidades informadas e protegidas por controles técnicos e organizacionais proporcionais."
+                    },
+                    {
+                      "title": "5. Seus direitos",
+                      "text": "Você pode solicitar confirmação, acesso, correção, informação sobre compartilhamento, revogação de consentimento e exclusão, nos termos da LGPD."
+                    },
+                    {
+                      "title": "6. Contato",
+                      "text": "Para dúvidas sobre privacidade, utilize o formulário de contato oficial da Biazotto."
+                    }
+                  ]
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "page-termos",
+        "slug": "/termos/",
+        "title": "Termos de Uso | Biazotto",
+        "meta_description": "Condições de uso do site da Biazotto Gestão de Viagens e Milhas.",
+        "order_index": 7,
+        "is_published": 0,
+        "sections": [
+          {
+            "id": "sec-trm-hero",
+            "section_key": "hero",
+            "section_type": "page_hero",
+            "background_style": "navy",
+            "padding_preset": "normal",
+            "order_index": 0,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-trm-eyebrow",
+                "block_key": "eyebrow",
+                "block_type": "text",
+                "content": {
+                  "text": "Informações legais"
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-trm-title",
+                "block_key": "title",
+                "block_type": "heading",
+                "content": {
+                  "text": "Termos de Uso"
+                },
+                "visual_config": {},
+                "order_index": 1,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              },
+              {
+                "id": "blk-trm-desc",
+                "block_key": "description",
+                "block_type": "text",
+                "content": {
+                  "text": "Condições gerais para navegação e contato por este site."
+                },
+                "visual_config": {},
+                "order_index": 2,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          },
+          {
+            "id": "sec-trm-content",
+            "section_key": "legal_content",
+            "section_type": "legal_article",
+            "background_style": "white",
+            "padding_preset": "normal",
+            "order_index": 1,
+            "is_visible": 0,
+            "blocks": [
+              {
+                "id": "blk-trm-body",
+                "block_key": "article_body",
+                "block_type": "legal_text",
+                "content": {
+                  "sections": [
+                    {
+                      "title": "1. Finalidade do site",
+                      "text": "O site apresenta informações institucionais sobre a Biazotto Gestão de Viagens e Milhas e oferece um canal inicial de contato."
+                    },
+                    {
+                      "title": "2. Informações e disponibilidade",
+                      "text": "Conteúdos têm caráter informativo. Tarifas, assentos, regras de programas e demais condições de viagem podem mudar e não constituem garantia de disponibilidade."
+                    },
+                    {
+                      "title": "3. Uso permitido",
+                      "text": "O visitante deve usar o site de forma lícita, sem tentar prejudicar sua segurança, disponibilidade ou integridade."
+                    },
+                    {
+                      "title": "4. Propriedade intelectual",
+                      "text": "A marca, o design e os conteúdos pertencem aos seus respectivos titulares e não podem ser reproduzidos sem autorização."
+                    },
+                    {
+                      "title": "5. Alterações",
+                      "text": "Estes termos podem ser atualizados para refletir mudanças no site, nos serviços ou na legislação aplicável."
+                    }
+                  ]
+                },
+                "visual_config": {},
+                "order_index": 0,
+                "is_visible": 0,
+                "version": 1,
+                "updated_at": 1789860353815
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "navigation": [
+      {
+        "id": "nav-header-1",
+        "menu_location": "header",
+        "label": "Início",
+        "url": "/",
+        "target": "_self",
+        "order_index": 0,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-footer-1",
+        "menu_location": "footer_nav",
+        "label": "A Biazotto",
+        "url": "/sobre/",
+        "target": "_self",
+        "order_index": 0,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-footer-5",
+        "menu_location": "footer_info",
+        "label": "Contato",
+        "url": "/contato/",
+        "target": "_self",
+        "order_index": 0,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-header-2",
+        "menu_location": "header",
+        "label": "A Biazotto",
+        "url": "/sobre/",
+        "target": "_self",
+        "order_index": 1,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-footer-2",
+        "menu_location": "footer_nav",
+        "label": "Serviços",
+        "url": "/servicos/",
+        "target": "_self",
+        "order_index": 1,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-footer-6",
+        "menu_location": "footer_info",
+        "label": "Privacidade",
+        "url": "/privacidade/",
+        "target": "_self",
+        "order_index": 1,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-header-3",
+        "menu_location": "header",
+        "label": "Serviços",
+        "url": "/servicos/",
+        "target": "_self",
+        "order_index": 2,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-footer-3",
+        "menu_location": "footer_nav",
+        "label": "Como funciona",
+        "url": "/como-funciona/",
+        "target": "_self",
+        "order_index": 2,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-footer-7",
+        "menu_location": "footer_info",
+        "label": "Termos de uso",
+        "url": "/termos/",
+        "target": "_self",
+        "order_index": 2,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-header-4",
+        "menu_location": "header",
+        "label": "Como funciona",
+        "url": "/como-funciona/",
+        "target": "_self",
+        "order_index": 3,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-footer-4",
+        "menu_location": "footer_nav",
+        "label": "Insights",
+        "url": "/insights/",
+        "target": "_self",
+        "order_index": 3,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-header-5",
+        "menu_location": "header",
+        "label": "Insights",
+        "url": "/insights/",
+        "target": "_self",
+        "order_index": 4,
+        "is_cta": 0,
+        "is_visible": 1
+      },
+      {
+        "id": "nav-header-6",
+        "menu_location": "header",
+        "label": "Solicitar análise",
+        "url": "/contato/",
+        "target": "_self",
+        "order_index": 5,
+        "is_cta": 1,
+        "is_visible": 1
+      }
+    ],
+    "settings": {
+      "brand_name": {
+        "text": "Biazotto Gestão de Viagens e Milhas"
+      },
+      "tagline": {
+        "text": "Estratégia e cuidado para você aproveitar melhor cada viagem."
+      },
+      "contact_whatsapp": {
+        "text": "(19) 98973-0348",
+        "raw": "19989730348"
+      },
+      "contact_email": {
+        "text": "contato@biazottoviagens.com.br"
+      },
+      "contact_instagram": {
+        "text": "@biazottoviagens",
+        "url": "https://instagram.com/biazottoviagens"
+      },
+      "copyright": {
+        "text": "Biazotto Gestão de Viagens e Milhas. Todos os direitos reservados."
+      }
+    }
+  }
+}
