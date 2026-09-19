@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "biazotto-site-cms",
+  "main": "server/worker.js",
+  "compatibility_date": "2024-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "biazotto-cms-db",
+      "database_id": "biazotto-cms-d1-id",
+      "migrations_dir": "server"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA_BUCKET",
+      "bucket_name": "biazotto-media"
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "production"
+  }
+}

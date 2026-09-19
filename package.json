@@ -1,0 +1,15 @@
+{
+  "name": "biazotto-site-cms",
+  "version": "2.0.0",
+  "description": "Biazotto Gestão de Viagens e Milhas - Plataforma Web e Sistema de Conteúdo Editável",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "test": "node tests/admin_cms.test.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2"
+  }
+}

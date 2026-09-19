@@ -1,0 +1,31 @@
+﻿====================================================================
+  BIAZOTTO - GESTAO DE VIAGENS E MILHAS
+  VERSAO PORTATIL COM NODE.JS EMBUTIDO (ZERO INSTALACAO)
+====================================================================
+
+ESTA VERSAO JA INCLUI O EXECUTAVEL DO NODE.JS (v24).
+VOCE NAO PRECISA INSTALAR NADA NO OUTRO COMPUTADOR!
+
+1. COMO INICIAR:
+   - Basta dar um clique duplo no arquivo:
+     INICIAR_SITE.bat (na raiz da pasta ou dentro de dist)
+   - O servidor iniciarÃ¡ automaticamente usando o Node.js embutido.
+   - O navegador abrirÃ¡ na hora em: http://localhost:3000
+
+2. ACESSO AO PAINEL CMS:
+   - Para gerenciar textos, imagens, seÃ§Ãµes e novidades:
+     http://localhost:3000
+   - Clique no Ã­cone de engrenagem no cabeÃ§alho ou rodapÃ© para abrir o painel.
+   - Credenciais padrÃ£o:
+     * UsuÃ¡rio: admin
+     * Senha inicial: admin123
+     (Pode ser alterada no prÃ³prio painel).
+
+3. PORTABILIDADE TOTAL:
+   - O executÃ¡vel Node.js estÃ¡ em: dist/bin/node.exe
+   - O banco de dados SQLite com todos os dados estÃ¡ em: dist/data/biazotto.sqlite
+   - As mÃ­dias enviadas ficam em: dist/uploads/
+   - Os manuais de identidade visual estÃ£o em: dist/Manual_de_Identidade_e_Diretrizes_Biazotto.pdf
+
+Tudo funciona 100% offline ou online em qualquer PC com Windows!
+====================================================================

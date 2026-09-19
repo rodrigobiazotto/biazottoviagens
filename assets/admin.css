@@ -1,0 +1,592 @@
+/* ==========================================================================
+   Biazotto CMS - Administrative Interface & Login Styles
+   Preserves 100% Brand Identity: #0B1E31, #DBB053, #A87824, #F5F2EC, #3D3D3D
+   ========================================================================== */
+
+:root {
+  --admin-navy: #0B1E31;
+  --admin-gold: #DBB053;
+  --admin-gold-hover: #c49a40;
+  --admin-bronze: #A87824;
+  --admin-offwhite: #F5F2EC;
+  --admin-charcoal: #3D3D3D;
+  --admin-bg: rgba(11, 30, 49, 0.96);
+  --admin-border: rgba(219, 176, 83, 0.35);
+  --admin-bar-height: 52px;
+}
+
+/* 1. Discreet Login Dev Footer Link */
+.dev-login-btn {
+  background: transparent;
+  border: none;
+  color: rgba(245, 242, 236, 0.45);
+  font-size: 0.78rem;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 2px 6px;
+  margin-left: 10px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  vertical-align: middle;
+}
+
+.dev-login-btn:hover,
+.dev-login-btn:focus-visible {
+  color: var(--admin-gold);
+  background: rgba(219, 176, 83, 0.1);
+  outline: 1px solid rgba(219, 176, 83, 0.4);
+}
+
+/* 2. Accessible Dev Login Modal */
+.dev-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 15, 26, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.dev-modal-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dev-modal-card {
+  background: var(--admin-navy);
+  border: 1px solid var(--admin-border);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(219, 176, 83, 0.15);
+  color: var(--admin-offwhite);
+  overflow: hidden;
+  transform: translateY(12px) scale(0.98);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dev-modal-overlay.open .dev-modal-card {
+  transform: translateY(0) scale(1);
+}
+
+.dev-modal-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(219, 176, 83, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dev-modal-header h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--admin-gold);
+  margin: 0;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dev-modal-close {
+  background: transparent;
+  border: none;
+  color: rgba(245, 242, 236, 0.6);
+  cursor: pointer;
+  font-size: 1.25rem;
+  line-height: 1;
+  padding: 6px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.dev-modal-close:hover,
+.dev-modal-close:focus-visible {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  outline: 2px solid var(--admin-gold);
+}
+
+.dev-modal-body {
+  padding: 1.5rem;
+}
+
+.dev-modal-body p.modal-desc {
+  font-size: 0.85rem;
+  color: rgba(245, 242, 236, 0.7);
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  line-height: 1.4;
+}
+
+.dev-form-group {
+  margin-bottom: 1.1rem;
+  position: relative;
+}
+
+.dev-form-group label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: rgba(245, 242, 236, 0.9);
+  margin-bottom: 0.4rem;
+}
+
+.dev-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dev-input-wrap input {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(219, 176, 83, 0.3);
+  border-radius: 8px;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.92rem;
+  color: #fff;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+}
+
+.dev-input-wrap input:focus {
+  border-color: var(--admin-gold);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(219, 176, 83, 0.2);
+}
+
+.dev-toggle-pass {
+  position: absolute;
+  right: 8px;
+  background: transparent;
+  border: none;
+  color: rgba(245, 242, 236, 0.6);
+  font-size: 0.78rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.dev-toggle-pass:hover,
+.dev-toggle-pass:focus-visible {
+  color: var(--admin-gold);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.dev-alert {
+  background: rgba(220, 53, 69, 0.15);
+  border: 1px solid rgba(220, 53, 69, 0.4);
+  color: #ff9d9d;
+  padding: 0.7rem 0.9rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  margin-bottom: 1.1rem;
+  display: none;
+  line-height: 1.35;
+}
+
+.dev-alert.show {
+  display: block;
+}
+
+.dev-alert.info {
+  background: rgba(219, 176, 83, 0.15);
+  border-color: var(--admin-gold);
+  color: var(--admin-gold);
+}
+
+.dev-btn-primary {
+  width: 100%;
+  background: var(--admin-gold);
+  color: var(--admin-navy);
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.dev-btn-primary:hover:not(:disabled) {
+  background: var(--admin-gold-hover);
+  box-shadow: 0 4px 12px rgba(219, 176, 83, 0.25);
+}
+
+.dev-btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* 3. Top Administrative Bar */
+.admin-top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--admin-bar-height);
+  background: var(--admin-bg);
+  border-bottom: 1px solid var(--admin-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  color: var(--admin-offwhite);
+  font-family: inherit;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Offset body when admin bar is active */
+body.admin-mode-active {
+  padding-top: var(--admin-bar-height) !important;
+}
+
+.admin-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.admin-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--admin-gold);
+  letter-spacing: 0.02em;
+}
+
+.admin-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #28a745;
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.3);
+  animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 1; box-shadow: 0 0 8px rgba(40, 167, 69, 0.6); }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+.admin-mode-toggle {
+  display: inline-flex;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(219, 176, 83, 0.25);
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.admin-mode-btn {
+  background: transparent;
+  border: none;
+  color: rgba(245, 242, 236, 0.7);
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.admin-mode-btn.active {
+  background: var(--admin-gold);
+  color: var(--admin-navy);
+}
+
+.admin-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.admin-tool-btn {
+  background: transparent;
+  border: 1px solid rgba(219, 176, 83, 0.2);
+  color: var(--admin-offwhite);
+  border-radius: 6px;
+  font-size: 0.76rem;
+  font-weight: 500;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s;
+}
+
+.admin-tool-btn:hover:not(:disabled),
+.admin-tool-btn:focus-visible {
+  background: rgba(219, 176, 83, 0.15);
+  border-color: var(--admin-gold);
+  color: var(--admin-gold);
+}
+
+.admin-tool-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.admin-tool-btn.primary {
+  background: var(--admin-gold);
+  color: var(--admin-navy);
+  border-color: var(--admin-gold);
+  font-weight: 600;
+}
+
+.admin-tool-btn.primary:hover:not(:disabled) {
+  background: var(--admin-gold-hover);
+}
+
+.admin-tool-btn.danger {
+  border-color: rgba(220, 53, 69, 0.4);
+  color: #ff9d9d;
+}
+
+.admin-tool-btn.danger:hover {
+  background: rgba(220, 53, 69, 0.2);
+  border-color: #dc3545;
+}
+
+/* 4. Edit Mode Visual Feedback & Outlines */
+body.mode-edit [data-cms-block] {
+  position: relative;
+  outline: 1px dashed rgba(219, 176, 83, 0.4);
+  outline-offset: 3px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: outline-color 0.2s, background-color 0.2s;
+}
+
+body.mode-edit [data-cms-block]:hover {
+  outline: 2px solid var(--admin-gold);
+  background-color: rgba(219, 176, 83, 0.08);
+}
+
+body.mode-edit [data-cms-block].active-editing {
+  outline: 2px solid var(--admin-gold) !important;
+  background-color: rgba(219, 176, 83, 0.12) !important;
+}
+
+/* Section Controls Toolbar in Edit Mode */
+body.mode-edit section {
+  position: relative;
+}
+
+.section-admin-bar {
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: var(--admin-navy);
+  border: 1px solid var(--admin-border);
+  border-radius: 6px;
+  padding: 3px 6px;
+  z-index: 50;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  align-items: center;
+  gap: 4px;
+}
+
+body.mode-edit section:hover .section-admin-bar,
+body.mode-edit section:focus-within .section-admin-bar {
+  display: flex;
+}
+
+.section-admin-btn {
+  background: transparent;
+  border: none;
+  color: rgba(245, 242, 236, 0.8);
+  padding: 4px 6px;
+  font-size: 0.72rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  transition: all 0.15s;
+}
+
+.section-admin-btn:hover {
+  background: rgba(219, 176, 83, 0.2);
+  color: var(--admin-gold);
+}
+
+/* 5. Lateral Properties Drawer / Panel */
+.admin-drawer {
+  position: fixed;
+  top: var(--admin-bar-height);
+  right: 0;
+  bottom: 0;
+  width: 380px;
+  max-width: 100vw;
+  background: var(--admin-navy);
+  border-left: 1px solid var(--admin-border);
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.4);
+  z-index: 9998;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  color: var(--admin-offwhite);
+}
+
+.admin-drawer.open {
+  transform: translateX(0);
+}
+
+.admin-drawer-header {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid rgba(219, 176, 83, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-drawer-header h3 {
+  font-size: 1rem;
+  color: var(--admin-gold);
+  margin: 0;
+}
+
+.admin-drawer-body {
+  padding: 1.25rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.admin-drawer-footer {
+  padding: 1rem 1.25rem;
+  border-top: 1px solid rgba(219, 176, 83, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.admin-editor-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(219, 176, 83, 0.25);
+  border-radius: 6px;
+  padding: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.admin-editor-toolbar button {
+  background: transparent;
+  border: none;
+  color: var(--admin-offwhite);
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-editor-toolbar button:hover,
+.admin-editor-toolbar button.active {
+  background: var(--admin-gold);
+  color: var(--admin-navy);
+}
+
+.admin-textarea {
+  width: 100%;
+  min-height: 120px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(219, 176, 83, 0.3);
+  border-radius: 6px;
+  padding: 0.75rem;
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.admin-textarea:focus {
+  outline: none;
+  border-color: var(--admin-gold);
+  box-shadow: 0 0 0 2px rgba(219, 176, 83, 0.2);
+}
+
+.char-counter {
+  font-size: 0.72rem;
+  color: rgba(245, 242, 236, 0.5);
+  text-align: right;
+  margin-top: 4px;
+}
+
+/* 6. Unsaved changes indicator toast */
+.admin-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: var(--admin-navy);
+  border: 1px solid var(--admin-gold);
+  color: var(--admin-offwhite);
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 0.84rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.admin-toast.show {
+  transform: translateX(-50%) translateY(0);
+}
+
+/* 7. Responsive Drawer for Mobile */
+@media (max-width: 768px) {
+  .admin-drawer {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 75vh;
+    border-left: none;
+    border-top: 1px solid var(--admin-border);
+    transform: translateY(100%);
+    border-radius: 16px 16px 0 0;
+  }
+
+  .admin-drawer.open {
+    transform: translateY(0);
+  }
+
+  .admin-actions-group {
+    overflow-x: auto;
+    max-width: 60vw;
+  }
+}
