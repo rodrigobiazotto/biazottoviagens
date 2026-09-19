@@ -5,7 +5,6 @@
   "main": "server/index.js",
   "type": "module",
   "scripts": {
-    "build": "echo 'Deploying Biazotto Viagens'",
     "start": "node server/index.js",
     "dev": "node server/index.js",
     "test": "node tests/admin_cms.test.mjs"
