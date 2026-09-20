@@ -161,6 +161,7 @@ function cmClose() {
   overlay.classList.remove('open');
   overlay.setAttribute('aria-hidden', 'true');
   document.body.classList.remove('cmodal-open');
+  document.documentElement.style.overflow = '';
 }
 
 function cmSetError(id, msg) {
@@ -297,6 +298,7 @@ function openContactModal() {
   overlay.classList.add('open');
   overlay.setAttribute('aria-hidden', 'false');
   document.body.classList.add('cmodal-open');
+  document.documentElement.style.overflow = 'hidden';
   setTimeout(() => { document.getElementById('cmNome')?.focus(); }, 80);
 }
 
