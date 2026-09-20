@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.biazottoviagens.com.br/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://www.biazottoviagens.com.br/assets/logo-padrao.png</image:loc>
-      <image:title>Biazotto Gestão de Viagens e Milhas</image:title>
-      <image:caption>Biazotto Gestão de Viagens e Milhas — Logotipo Oficial</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.biazottoviagens.com.br/assets/hero.png</image:loc>
-      <image:title>Biazotto Viagens</image:title>
-      <image:caption>Gestão estratégica e cuidado para você aproveitar melhor cada viagem</image:caption>
-    </image:image>
   </url>
   <url>
     <loc>https://www.biazottoviagens.com.br/servicos/</loc>
