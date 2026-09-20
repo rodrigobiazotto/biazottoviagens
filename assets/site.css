@@ -163,12 +163,24 @@
 .section-sobre-abordagem .card {
   justify-content: flex-start;
 }
+/* Título reservado a 2 linhas: o texto de apoio dos 3 cards começa na mesma altura */
 .section-sobre-abordagem .card h3 {
   margin: 1rem 0 0.75rem;
   flex: none;
+  min-height: calc(1.4rem * 1.35 * 2);
 }
 .section-sobre-abordagem .card p {
   flex: none;
+}
+
+/* Alinhamento vertical das seções Exemplo de aplicação e Para quem é */
+.section-exemplo .section-head,
+.section-paraquem .section-head {
+  align-items: center;
+}
+.section-exemplo .section-head > p,
+.section-paraquem .section-head > p {
+  margin-top: 0;
 }
 
 /* Ajustes de contraste e refinamento para seções Navy */
@@ -189,6 +201,34 @@
 }
 .navy .eyebrow {
   color: var(--gold);
+}
+.navy .text-link {
+  color: var(--gold);
+}
+
+/* Split "O que muda" sobre fundo navy */
+.split.navy .split-content p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* Lista "Para quem é" sobre fundo navy: texto branco suave e bordas sutis douradas */
+.navy .feature-list {
+  border-top-color: rgba(219, 176, 83, 0.4);
+}
+.navy .feature {
+  border-bottom-color: rgba(219, 176, 83, 0.4);
+}
+.navy .feature:nth-child(even) {
+  border-left-color: rgba(219, 176, 83, 0.4);
+}
+.navy .feature b {
+  color: var(--gold);
+}
+.navy .feature h3 {
+  color: #fff;
+}
+.navy .feature p {
+  color: rgba(255, 255, 255, 0.72);
 }
 
 /* Respeito a Movimento Reduzido (Acessibilidade) */
