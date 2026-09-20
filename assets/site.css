@@ -274,4 +274,12 @@ body.cmodal-open{overflow:hidden}
 .cmodal-done-text{text-align:center;color:var(--muted);font-size:.95rem;line-height:1.6}
 @media(max-width:580px){.cmodal{padding:1.5rem 1.25rem}.cmodal h3{font-size:1.35rem}}
 
+/* FAQ da página Serviços: perguntas/respostas em 2 colunas (colapsa em mobile) */
+.section-faq .values{grid-template-columns:1fr 1fr;gap:2.5rem 2rem}
+.section-faq .value h3{font-size:1.05rem;line-height:1.4}
+@media(max-width:900px){.section-faq .values{grid-template-columns:1fr}}
+
+/* Nota de ciclo anual no CTA */
+.cta .cta-note{max-width:650px;margin:0 auto 1.8rem;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--bronze);font-weight:600}
+
 
