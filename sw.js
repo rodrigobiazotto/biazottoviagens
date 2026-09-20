@@ -1,5 +1,5 @@
 // Biazotto Viagens - Service Worker
-const CACHE_NAME = 'biazotto-pwa-v4';
+const CACHE_NAME = 'biazotto-pwa-v5';
 
 const PRECACHE_ASSETS = [
   '/',
@@ -11,7 +11,9 @@ const PRECACHE_ASSETS = [
   '/termos/',
   '/assets/site.css',
   '/assets/site.js',
-  '/assets/favicon.png',
+  '/favicon.ico',
+  '/assets/favicon-16x16.png',
+  '/assets/favicon-32x32.png',
   '/assets/logo-branca.png',
   '/assets/logo-padrao.png',
   '/assets/marca-quadrada.png',
@@ -64,6 +66,12 @@ self.addEventListener('fetch', (event) => {
 
   // Apenas requisições da mesma origem
   if (url.origin !== location.origin) {
+    return;
+  }
+
+  // sitemap.xml deve sempre vir fresco da rede (motores de busca precisam da versão atual)
+  if (url.pathname === '/sitemap.xml') {
+    event.respondWith(fetch(request));
     return;
   }
 
