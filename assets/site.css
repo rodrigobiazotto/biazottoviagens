@@ -149,6 +149,28 @@
   margin-top: 0;
 }
 
+/* Alinhamento vertical das seções da página Sobre */
+.section-sobre-visao .section-head,
+.section-sobre-abordagem .section-head {
+  align-items: center;
+}
+.section-sobre-visao .section-head > p,
+.section-sobre-abordagem .section-head > p {
+  margin-top: 0;
+}
+
+/* Cards da página Sobre: colunas alinhadas de cima (não em baseline) */
+.section-sobre-abordagem .card {
+  justify-content: flex-start;
+}
+.section-sobre-abordagem .card h3 {
+  margin: 1rem 0 0.75rem;
+  flex: none;
+}
+.section-sobre-abordagem .card p {
+  flex: none;
+}
+
 /* Ajustes de contraste e refinamento para seções Navy */
 .navy .quote {
   color: #fff;

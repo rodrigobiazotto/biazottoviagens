@@ -174,22 +174,10 @@
     }, 250);
   }
 
-  // 2. Injeta o link discreto "Login Dev" no rodapé de todas as páginas
+  // 2. Link "Login Dev" removido do rodapé (desabilitado intencionalmente)
   function setupDevLoginTrigger() {
-    const copyrightEl = document.querySelector('.footer .copyright');
-    if (copyrightEl && !document.getElementById('devLoginBtn')) {
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'dev-login-btn';
-      btn.id = 'devLoginBtn';
-      btn.setAttribute('aria-haspopup', 'dialog');
-      btn.innerHTML = `· <span>Login Dev</span>`;
-      btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        openLoginModal();
-      });
-      copyrightEl.appendChild(btn);
-    }
+    // Link visível removido — modal mantido mas não acessível pelo rodapé
+    return;
   }
 
   // 3. Notificação Toast
