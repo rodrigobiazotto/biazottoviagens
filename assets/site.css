@@ -141,6 +141,34 @@
   padding-bottom: 0.85rem;
 }
 
+/* Alinhamento vertical da seção A Solução */
+.section-solucao .section-head {
+  align-items: center;
+}
+.section-solucao .section-head > div:last-child > p:first-child {
+  margin-top: 0;
+}
+
+/* Ajustes de contraste e refinamento para seções Navy */
+.navy .quote {
+  color: #fff;
+}
+.navy .quote strong {
+  color: var(--gold);
+}
+.navy .values .value {
+  border-top-color: rgba(219, 176, 83, 0.4);
+}
+.navy .value h3 {
+  color: #fff;
+}
+.navy .value p {
+  color: rgba(255, 255, 255, 0.72);
+}
+.navy .eyebrow {
+  color: var(--gold);
+}
+
 /* Respeito a Movimento Reduzido (Acessibilidade) */
 @media(prefers-reduced-motion:reduce){
   #conteudo, .reveal-item, .card, .step, .button, .nav-cta, .timeline-num, .timeline-item {
