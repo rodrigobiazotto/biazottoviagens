@@ -8,7 +8,6 @@ const PRECACHE_ASSETS = [
   '/servicos/',
   '/como-funciona/',
   '/insights/',
-  '/contato/',
   '/privacidade/',
   '/termos/',
   '/assets/site.css',

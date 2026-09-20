@@ -68,7 +68,6 @@ sobre:{title:'A Biazotto | Gestão de Viagens e Milhas',description:'Conheça a 
 servicos:{title:'Serviços | Biazotto',description:'Conheça a gestão consultiva de viagens, pontos, milhas e benefícios da Biazotto.',html:`<section class="page-hero"><div class="container"><p class="eyebrow">Serviços</p><h1>Uma gestão completa, sem excesso de complexidade.</h1><p>Planejamento, análise e execução reunidos em um atendimento individual, com escopo definido de acordo com seu perfil.</p></div></section><section class="section"><div class="container"><div class="service-block"><div><p class="eyebrow">01 · Diagnóstico</p><h2>Organização do seu cenário atual</h2></div><ul><li>Entendimento do perfil de consumo e viagem</li><li>Mapeamento de cartões, programas, saldos e validades</li><li>Registro de destinos, preferências e prioridades</li><li>Identificação de pontos que precisam de atenção</li></ul></div><div class="service-block"><div><p class="eyebrow">02 · Estratégia</p><h2>Decisões alinhadas ao seu objetivo</h2></div><ul><li>Direcionamento para acúmulo e uso de pontos e milhas</li><li>Comparação entre pagamento em dinheiro e resgate</li><li>Planejamento das viagens futuras informadas</li><li>Apresentação clara das condições de cada alternativa</li></ul></div><div class="service-block"><div><p class="eyebrow">03 · Execução</p><h2>Apoio na jornada de viagem</h2></div><ul><li>Pesquisa e emissão conforme o escopo contratado</li><li>Organização das solicitações e confirmações</li><li>Apoio com itens complementares previamente combinados</li><li>Acompanhamento dos próximos passos</li></ul></div></div></section><section class="section navy section-head-center"><div class="container"><div class="section-head"><div><p class="eyebrow">O que não prometemos</p><h2>Clareza também significa reconhecer limites.</h2></div><p>Assentos em milhas, tarifas e regras mudam. A Biazotto analisa as condições disponíveis no momento e apresenta alternativas, sem promessas de disponibilidade ou economia garantida.</p></div></div></section><section class="section off section-head-center"><div class="container"><div class="section-head"><div><h2>Isso não é para quem quer aprender a fazer sozinho.</h2></div><p>Se o que você busca é entender programas de fidelidade e tomar as próprias decisões, esse não é o formato certo. A gestão existe para quem prefere que a parte técnica seja resolvida por outra pessoa.</p></div></div></section><section class="section navy section-head-center"><div class="container"><div class="section-head"><div><h2>Não somos uma agência.</h2></div><p>Uma agência resolve quando você pede. A gestão prevê, cuida e decide por você — o acompanhamento não termina na emissão, continua o ano inteiro.</p></div></div></section><section class="cta"><div class="cta-inner"><p class="eyebrow">Escopo personalizado</p><h2>Descubra o formato adequado para você.</h2><p>Na conversa inicial, identificamos suas necessidades e explicamos quais atividades podem fazer parte da gestão.</p><a class="button dark" href="/contato/">Solicitar análise</a></div></section>`},
 processo:{title:'Como funciona | Biazotto',description:'Entenda o processo de gestão de viagens e milhas da Biazotto.',html:`<section class="page-hero"><div class="container"><p class="eyebrow">Como funciona</p><h1>Um processo simples de acompanhar e fácil de delegar.</h1><p>A gestão acompanha você o ano inteiro — não é um serviço pontual de emissão. Você participa das decisões essenciais; a organização técnica e o acompanhamento contínuo ficam com a Biazotto.</p></div></section><section class="section"><div class="container"><div class="timeline"><article class="timeline-item"><span class="timeline-num">01</span><div><h2>Conversa inicial</h2><p>Entendemos sua rotina, frequência de viagens, prioridades e o que você deseja delegar.</p></div></article><article class="timeline-item"><span class="timeline-num">02</span><div><h2>Diagnóstico</h2><p>Organizamos as informações relevantes sobre cartões, programas, saldos, validade e preferências.</p></div></article><article class="timeline-item"><span class="timeline-num">03</span><div><h2>Estratégia personalizada</h2><p>Definimos critérios de decisão e um plano coerente com os objetivos informados.</p></div></article><article class="timeline-item"><span class="timeline-num">04</span><div><h2>Solicitação de viagem</h2><p>Você informa destino, datas, passageiros e necessidades específicas.</p></div></article><article class="timeline-item"><span class="timeline-num">05</span><div><h2>Análise de alternativas</h2><p>Comparamos caminhos e apresentamos condições relevantes em linguagem clara.</p></div></article><article class="timeline-item"><span class="timeline-num">06</span><div><h2>Autorização e execução</h2><p>Após sua escolha, conduzimos as ações previstas no escopo contratado.</p></div></article><article class="timeline-item"><span class="timeline-num">07</span><div><h2>Acompanhamento</h2><p>Mantemos registros e próximos passos organizados para dar continuidade à gestão.</p></div></article></div></div></section><section class="section navy"><div class="container"><p class="quote">Você informa o que precisa e autoriza a escolha. <strong>A Biazotto organiza o caminho.</strong></p></div></section><section class="cta"><div class="cta-inner"><p class="eyebrow">Comece pelo diagnóstico</p><h2>Conte como você viaja hoje.</h2><p>Com essas informações, conseguimos orientar o próximo passo com clareza.</p><a class="button dark" href="/contato/">Iniciar conversa</a></div></section>`},
 insights:{title:'Insights | Biazotto',description:'Conteúdos sobre gestão de viagens, pontos, milhas e decisões mais conscientes.',html:`<section class="page-hero"><div class="container"><p class="eyebrow">Insights</p><h1>Informação para decisões mais conscientes.</h1><p>Conteúdos claros sobre viagens, pontos, benefícios e planejamento.</p></div></section><section class="section"><div class="container"><div class="insights-empty"><img src="/assets/marca-quadrada.png" alt="" width="86" height="86"><h2>Novos conteúdos serão publicados em breve.</h2><p>Estamos preparando materiais objetivos para ajudar você a compreender as decisões que realmente importam.</p><a class="text-link" href="/contato/">Falar com a Biazotto</a></div></div></section>`},
-contato:{title:'Solicitar análise | Biazotto',description:'Conte como você viaja e solicite uma conversa inicial com a Biazotto.',html:`<section class="page-hero"><div class="container"><p class="eyebrow">Contato</p><h1>Vamos entender como você viaja.</h1><p>Preencha as informações iniciais. Elas ajudam a preparar uma conversa mais objetiva sobre sua rotina e suas prioridades.</p></div></section><section class="section"><div class="container form-wrap"><div class="form-intro"><p class="eyebrow">Conversa inicial</p><h2>Seu próximo passo começa aqui.</h2><p>Não envie senhas, dados completos de cartão, CPF ou códigos de segurança. Esses dados não são necessários neste contato.</p><div class="pills"><span class="pill">Informações protegidas</span><span class="pill">Atendimento individual</span></div></div><form class="form" id="contactForm"><div class="field"><label for="name">Nome</label><input id="name" name="name" autocomplete="name" required></div><div class="field"><label for="phone">WhatsApp com DDD</label><input id="phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000" required></div><div class="field full"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="frequency">Frequência de viagens</label><select id="frequency" name="frequency" required><option value="">Selecione</option><option>1 a 2 por ano</option><option>3 a 5 por ano</option><option>6 ou mais por ano</option></select></div><div class="field"><label for="goal">Objetivo principal</label><select id="goal" name="goal" required><option value="">Selecione</option><option>Organizar pontos e milhas</option><option>Planejar próximas viagens</option><option>Delegar a gestão completa</option><option>Entender possibilidades</option></select></div><div class="field full"><label for="message">Mensagem opcional</label><textarea id="message" name="message" placeholder="Conte brevemente o que você precisa."></textarea></div><label class="check field full"><input type="checkbox" required> <span>Concordo com o uso dos dados para retorno deste contato, conforme a <a href="/privacidade/"><u>Política de Privacidade</u></a>.</span></label><div class="field full"><button class="button dark" type="submit">Preparar solicitação</button></div><p class="form-status" id="formStatus" role="status" aria-live="polite"></p></form></div></section>`},
 privacidade:{title:'Política de Privacidade | Biazotto',description:'Saiba como a Biazotto trata os dados enviados pelo site.',html:`<section class="page-hero"><div class="container"><p class="eyebrow">Informações legais</p><h1>Política de Privacidade</h1><p>Transparência sobre as informações enviadas neste site.</p></div></section><section class="section"><article class="container legal"><h2>1. Dados coletados</h2><p>O formulário pode coletar nome, telefone, e-mail, frequência aproximada de viagens, objetivo do contato e mensagem opcional.</p><h2>2. Finalidade</h2><p>As informações são usadas para responder à solicitação, entender o perfil inicial e organizar o contato comercial solicitado por você.</p><h2>3. Compartilhamento</h2><p>Os dados não devem ser vendidos. Fornecedores técnicos podem processá-los apenas quando necessários ao funcionamento do site e do atendimento, mediante medidas adequadas de proteção.</p><h2>4. Retenção e segurança</h2><p>As informações devem ser mantidas apenas pelo período necessário às finalidades informadas e protegidas por controles técnicos e organizacionais proporcionais.</p><h2>5. Seus direitos</h2><p>Você pode solicitar confirmação, acesso, correção, informação sobre compartilhamento, revogação de consentimento e exclusão, nos termos da LGPD.</p><h2>6. Contato</h2><p>Para dúvidas sobre privacidade, utilize o formulário de contato oficial da Biazotto.</p></article></section>`},
 termos:{title:'Termos de Uso | Biazotto',description:'Condições de uso do site da Biazotto Gestão de Viagens e Milhas.',html:`<section class="page-hero"><div class="container"><p class="eyebrow">Informações legais</p><h1>Termos de Uso</h1><p>Condições gerais para navegação e contato por este site.</p></div></section><section class="section"><article class="container legal"><h2>1. Finalidade do site</h2><p>O site apresenta informações institucionais sobre a Biazotto Gestão de Viagens e Milhas e oferece um canal inicial de contato.</p><h2>2. Informações e disponibilidade</h2><p>Conteúdos têm caráter informativo. Tarifas, assentos, regras de programas e demais condições de viagem podem mudar e não constituem garantia de disponibilidade.</p><h2>3. Uso permitido</h2><p>O visitante deve usar o site de forma lícita, sem tentar prejudicar sua segurança, disponibilidade ou integridade.</p><h2>4. Propriedade intelectual</h2><p>A marca, o design e os conteúdos pertencem aos seus respectivos titulares e não podem ser reproduzidos sem autorização.</p><h2>5. Alterações</h2><p>Estes termos podem ser atualizados para refletir mudanças no site, nos serviços ou na legislação aplicável.</p></article></section>`},
 notFound:{title:'Página não encontrada | Biazotto',description:'A página solicitada não foi encontrada.',html:`<section class="page-hero"><div class="container"><p class="eyebrow">Erro 404</p><h1>Este caminho não foi encontrado.</h1><p>Use a navegação para continuar ou volte à página inicial.</p><div class="actions" style="margin-top:2rem"><a class="button" href="/">Voltar ao início</a></div></div></section>`}
@@ -134,18 +133,171 @@ function initScrollReveal() {
   });
 }
 
-// Inicializador do Formulário de Contato
-function initContactForm() {
-  const form = document.getElementById('contactForm');
-  if (!form) return;
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    const s = document.getElementById('formStatus');
-    if (!s) return;
-    s.textContent = 'Sua solicitação foi enviada com sucesso! Nossa equipe entrará em contato em breve para apresentar uma proposta personalizada.';
-    s.classList.add('show');
-    s.focus();
+// ===================================================
+// Modal de Qualificação em 2 Etapas (substitui /contato/)
+// ===================================================
+const CONTACT_WA = '5519989730348';
+let contactModalReady = false;
+const contactData = { nome: '', fone: '', gasto: '', viagens: '' };
+
+function maskPhone(value) {
+  const d = String(value || '').replace(/\D/g, '').slice(0, 11);
+  if (!d.length) return '';
+  if (d.length <= 2) return '(' + d;
+  if (d.length <= 6) return `(${d.slice(0, 2)}) ${d.slice(2)}`;
+  if (d.length <= 10) return `(${d.slice(0, 2)}) ${d.slice(2, 6)}-${d.slice(6)}`;
+  return `(${d.slice(0, 2)}) ${d.slice(2, 7)}-${d.slice(7)}`;
+}
+
+function cmShow(step) {
+  document.querySelectorAll('#cmodalOverlay .cmodal-step').forEach(el => {
+    el.hidden = Number(el.dataset.step) !== step;
   });
+}
+
+function cmClose() {
+  const overlay = document.getElementById('cmodalOverlay');
+  if (!overlay) return;
+  overlay.classList.remove('open');
+  overlay.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('cmodal-open');
+}
+
+function cmSetError(id, msg) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  if (msg) { el.textContent = msg; el.hidden = false; }
+  else { el.hidden = true; }
+}
+
+function initContactModal() {
+  if (contactModalReady) return;
+  contactModalReady = true;
+
+  const overlay = document.createElement('div');
+  overlay.className = 'cmodal-overlay';
+  overlay.id = 'cmodalOverlay';
+  overlay.setAttribute('aria-hidden', 'true');
+  overlay.innerHTML = `
+    <div class="cmodal" role="dialog" aria-modal="true" aria-labelledby="cmodalTitle">
+      <button type="button" class="cmodal-close" id="cmCloseBtn" aria-label="Fechar">✕</button>
+      <div class="cmodal-step" data-step="1">
+        <p class="eyebrow">Análise estratégica</p>
+        <h3 id="cmodalTitle">Solicite sua análise estratégica</h3>
+        <div class="cfield">
+          <label for="cmNome">Nome completo</label>
+          <input type="text" id="cmNome" autocomplete="name" placeholder="Seu nome completo">
+        </div>
+        <div class="cfield">
+          <label for="cmFone">WhatsApp</label>
+          <input type="tel" id="cmFone" inputmode="numeric" autocomplete="tel" placeholder="(00) 00000-0000" maxlength="15">
+        </div>
+        <p class="cfield-error" id="cmErr1" hidden></p>
+        <button type="button" class="button cmodal-cta" id="cmNext">Continuar →</button>
+        <p class="cmodal-foot">Sem compromisso • Análise personalizada • Resposta em até 24h</p>
+      </div>
+      <div class="cmodal-step" data-step="2" hidden>
+        <button type="button" class="cmodal-back" id="cmBack">← Voltar</button>
+        <h3>Seu perfil de viagens</h3>
+        <p class="cgroup-label">Gasto mensal no cartão de crédito</p>
+        <div class="coptions" id="cmGasto">
+          <button type="button" class="copt">Até R$ 15.000</button>
+          <button type="button" class="copt">R$ 15.000 a R$ 30.000</button>
+          <button type="button" class="copt">R$ 30.000 a R$ 50.000</button>
+          <button type="button" class="copt">Acima de R$ 50.000</button>
+        </div>
+        <p class="cgroup-label">Quantidade de viagens por ano</p>
+        <div class="coptions" id="cmViagens">
+          <button type="button" class="copt">No máximo 3 viagens</button>
+          <button type="button" class="copt">4 a 6 viagens</button>
+          <button type="button" class="copt">Mais de 6 viagens</button>
+        </div>
+        <p class="cfield-error" id="cmErr2" hidden></p>
+        <button type="button" class="button cmodal-cta" id="cmSubmit">Solicitar análise →</button>
+      </div>
+      <div class="cmodal-step" data-step="3" hidden>
+        <div class="cmodal-done-icon">✓</div>
+        <h3>Quase lá!</h3>
+        <p class="cmodal-done-text">Abrindo o WhatsApp para você confirmar o envio. Se a janela não abrir, verifique o bloqueador de pop-ups do navegador.</p>
+        <button type="button" class="button secondary cmodal-cta" id="cmDone">Fechar</button>
+      </div>
+    </div>`;
+  document.body.appendChild(overlay);
+
+  const foneInput = document.getElementById('cmFone');
+  foneInput.addEventListener('input', () => { foneInput.value = maskPhone(foneInput.value); });
+
+  document.getElementById('cmCloseBtn').addEventListener('click', cmClose);
+  document.getElementById('cmDone').addEventListener('click', cmClose);
+  overlay.addEventListener('click', e => { if (e.target === overlay) cmClose(); });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && overlay.classList.contains('open')) cmClose();
+  });
+
+  document.getElementById('cmBack').addEventListener('click', () => cmShow(1));
+
+  document.getElementById('cmNext').addEventListener('click', () => {
+    const nome = document.getElementById('cmNome').value.trim();
+    const foneDigits = foneInput.value.replace(/\D/g, '');
+    if (nome.length < 3) {
+      cmSetError('cmErr1', 'Informe seu nome completo.');
+      return;
+    }
+    if (foneDigits.length < 10 || foneDigits.length > 11) {
+      cmSetError('cmErr1', 'Informe um WhatsApp válido com DDD.');
+      return;
+    }
+    cmSetError('cmErr1', null);
+    contactData.nome = nome;
+    contactData.fone = foneInput.value;
+    cmShow(2);
+  });
+
+  overlay.querySelectorAll('.coptions').forEach(group => {
+    group.addEventListener('click', e => {
+      const btn = e.target.closest('.copt');
+      if (!btn) return;
+      group.querySelectorAll('.copt').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      contactData[group.id === 'cmGasto' ? 'gasto' : 'viagens'] = btn.textContent.trim();
+      cmSetError('cmErr2', null);
+    });
+  });
+
+  document.getElementById('cmSubmit').addEventListener('click', () => {
+    if (!contactData.gasto) {
+      cmSetError('cmErr2', 'Selecione o gasto mensal no cartão.');
+      return;
+    }
+    if (!contactData.viagens) {
+      cmSetError('cmErr2', 'Selecione a quantidade de viagens por ano.');
+      return;
+    }
+    cmSetError('cmErr2', null);
+    const msg = [
+      'Olá! Vim pelo site da Biazotto e quero solicitar uma análise.',
+      '',
+      `Nome: ${contactData.nome}`,
+      `WhatsApp: ${contactData.fone}`,
+      `Gasto mensal no cartão: ${contactData.gasto}`,
+      `Viagens por ano: ${contactData.viagens}`
+    ].join('\n');
+    window.open(`https://wa.me/${CONTACT_WA}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
+    cmShow(3);
+    contactData.gasto = '';
+    contactData.viagens = '';
+    overlay.querySelectorAll('.copt.selected').forEach(b => b.classList.remove('selected'));
+  });
+}
+
+function openContactModal() {
+  initContactModal();
+  cmShow(1);
+  const overlay = document.getElementById('cmodalOverlay');
+  overlay.classList.add('open');
+  overlay.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('cmodal-open');
+  setTimeout(() => { document.getElementById('cmNome')?.focus(); }, 80);
 }
 
 // Renderizador com Transição Suave entre Páginas (SPA)
@@ -185,7 +337,7 @@ function renderPage(pathname, updateHistory = true) {
       } catch (err) {}
     });
 
-    initContactForm();
+    initContactModal();
     window.scrollTo({ top: 0, behavior: 'instant' });
     initScrollReveal();
 
@@ -209,6 +361,12 @@ document.addEventListener('click', e => {
     menu.classList.remove('open');
     menuButton.setAttribute('aria-expanded', 'false');
     document.body.classList.remove('menu-open');
+
+    // Página /contato/ foi substituída pelo modal de qualificação
+    if (href === '/contato/' || href === '/contato') {
+      openContactModal();
+      return;
+    }
 
     renderPage(href, true);
   }
@@ -234,7 +392,7 @@ document.querySelectorAll('.main-nav a').forEach(a => {
     }
   } catch (err) {}
 });
-initContactForm();
+initContactModal();
 initScrollReveal();
 
 // Carregamento dinâmico e sincronização de conteúdo publicado pelo CMS no servidor
@@ -251,7 +409,6 @@ async function syncPublishedContent() {
       '/servicos/': 'servicos',
       '/como-funciona/': 'processo',
       '/insights/': 'insights',
-      '/contato/': 'contato',
       '/privacidade/': 'privacidade',
       '/termos/': 'termos'
     };
