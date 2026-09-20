@@ -183,6 +183,14 @@
   margin-top: 0;
 }
 
+/* Alinhamento vertical das seções de Serviços (limites / formato / agência) */
+.section-head-center .section-head {
+  align-items: center;
+}
+.section-head-center .section-head > p {
+  margin-top: 0;
+}
+
 /* Ajustes de contraste e refinamento para seções Navy */
 .navy .quote {
   color: #fff;
@@ -204,11 +212,6 @@
 }
 .navy .text-link {
   color: var(--gold);
-}
-
-/* Split "O que muda" sobre fundo navy */
-.split.navy .split-content p {
-  color: rgba(255, 255, 255, 0.72);
 }
 
 /* Lista "Para quem é" sobre fundo navy: texto branco suave e bordas sutis douradas */
