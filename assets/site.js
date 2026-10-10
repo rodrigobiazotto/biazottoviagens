@@ -451,7 +451,6 @@ syncPublishedContent();
 
 // Progressive Web App Setup
 (function initPWA() {
-  // 1. Registro do Service Worker
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('/sw.js')
@@ -463,120 +462,5 @@ syncPublishedContent();
         });
     });
   }
-
-  // 2. Estado de instalação
-  let deferredPrompt = null;
-  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
-  const isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-
-  // 3. Captura do evento de instalação (Chrome, Edge, Android, Desktop)
-  window.addEventListener('beforeinstallprompt', function(e) {
-    e.preventDefault();
-    deferredPrompt = e;
-
-    // Se já instalado ou descartado na sessão atual, não exibe banner automático
-    if (isStandalone || sessionStorage.getItem('pwa_prompt_dismissed')) {
-      return;
-    }
-
-    showInstallBanner();
-  });
-
-  // Função para criar o banner elegante de instalação
-  function showInstallBanner(forIos = false) {
-    if (document.getElementById('pwa-install-banner') || isStandalone) return;
-
-    const banner = document.createElement('div');
-    banner.id = 'pwa-install-banner';
-    banner.className = 'pwa-install-banner';
-    banner.setAttribute('role', 'dialog');
-    banner.setAttribute('aria-label', 'Instalar aplicativo');
-
-    let actionContent = '';
-    if (forIos) {
-      actionContent = `
-        <div class="pwa-ios-instructions">
-          Para instalar no iPhone/iPad: toque em <strong>Compartilhar</strong> (ícone com seta para cima) e selecione <strong>"Adicionar à Tela de Início"</strong>.
-        </div>
-        <div class="pwa-banner-actions" style="margin-top:.5rem;">
-          <button class="pwa-btn-dismiss" id="pwa-dismiss-btn">Entendi</button>
-        </div>
-      `;
-    } else {
-      actionContent = `
-        <div class="pwa-banner-actions">
-          <button class="pwa-btn-dismiss" id="pwa-dismiss-btn">Depois</button>
-          <button class="pwa-btn-install" id="pwa-install-btn">Instalar App</button>
-        </div>
-      `;
-    }
-
-    banner.innerHTML = `
-      <div class="pwa-banner-content">
-        <img src="/assets/icon-192.png" alt="Biazotto" class="pwa-banner-icon" width="48" height="48">
-        <div class="pwa-banner-text">
-          <strong>Instalar Biazotto</strong>
-          <p>Tenha acesso rápido, exclusivo e offline em qualquer dispositivo.</p>
-        </div>
-      </div>
-      ${actionContent}
-    `;
-
-    document.body.appendChild(banner);
-
-    if (!forIos) {
-      document.getElementById('pwa-install-btn')?.addEventListener('click', async function() {
-        if (deferredPrompt) {
-          deferredPrompt.prompt();
-          const choice = await deferredPrompt.userChoice;
-          if (choice.outcome === 'accepted') {
-            console.log('[PWA] Aplicativo instalado pelo usuário');
-          }
-          deferredPrompt = null;
-        }
-        banner.remove();
-      });
-    }
-
-    document.getElementById('pwa-dismiss-btn')?.addEventListener('click', function() {
-      sessionStorage.setItem('pwa_prompt_dismissed', 'true');
-      banner.remove();
-    });
-  }
-
-  // 4. Adiciona link "Instalar App" no rodapé de informações
-  window.addEventListener('DOMContentLoaded', function() {
-    const footerInfo = document.querySelector('.footer div:nth-child(3)');
-    if (footerInfo && !isStandalone) {
-      const installLink = document.createElement('a');
-      installLink.href = '#install';
-      installLink.textContent = '📱 Instalar Aplicativo';
-      installLink.style.cursor = 'pointer';
-      installLink.style.color = 'var(--gold)';
-      installLink.addEventListener('click', function(e) {
-        e.preventDefault();
-        if (deferredPrompt) {
-          deferredPrompt.prompt();
-        } else if (isIos) {
-          showInstallBanner(true);
-        } else {
-          showInstallBanner(false);
-          // Se o navegador ainda não disparou beforeinstallprompt (ou não suporta)
-          if (!deferredPrompt) {
-            alert('Para instalar, use a opção "Instalar aplicativo" ou "Adicionar à tela inicial" no menu do seu navegador (três pontos ou menu superior).');
-          }
-        }
-      });
-      footerInfo.appendChild(installLink);
-      ensureInstagramFooterLink();
-    }
-  });
-
-  // Notificação de instalação bem-sucedida
-  window.addEventListener('appinstalled', function() {
-    console.log('[PWA] Biazotto instalado com sucesso no dispositivo!');
-    const banner = document.getElementById('pwa-install-banner');
-    if (banner) banner.remove();
-  });
 })();
 
