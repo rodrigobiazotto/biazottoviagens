@@ -1,5 +1,5 @@
 // Biazotto Viagens - Service Worker
-const CACHE_NAME = 'biazotto-pwa-v6';
+const CACHE_NAME = 'biazotto-pwa-v7';
 
 const PRECACHE_ASSETS = [
   '/',

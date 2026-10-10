@@ -302,6 +302,21 @@ function openContactModal() {
   setTimeout(() => { document.getElementById('cmNome')?.focus(); }, 80);
 }
 
+function ensureInstagramFooterLink() {
+  const footerInfo = document.querySelector('.footer div:nth-child(3)');
+  if (!footerInfo) return;
+
+  let instagramLink = footerInfo.querySelector('a[href="https://www.instagram.com/biazottoviagens/"]');
+  if (!instagramLink) {
+    instagramLink = document.createElement('a');
+    instagramLink.href = 'https://www.instagram.com/biazottoviagens/';
+    instagramLink.textContent = 'Instagram';
+  }
+  instagramLink.target = '_blank';
+  instagramLink.rel = 'noopener';
+  footerInfo.appendChild(instagramLink);
+}
+
 // Renderizador com Transição Suave entre Páginas (SPA)
 function renderPage(pathname, updateHistory = true) {
   const cleanPath = pathname.replace(/\/+$/, '') || '/';
@@ -342,6 +357,7 @@ function renderPage(pathname, updateHistory = true) {
     initContactModal();
     window.scrollTo({ top: 0, behavior: 'instant' });
     initScrollReveal();
+    ensureInstagramFooterLink();
 
     requestAnimationFrame(() => {
       conteudo.classList.remove('page-transitioning');
@@ -396,6 +412,7 @@ document.querySelectorAll('.main-nav a').forEach(a => {
 });
 initContactModal();
 initScrollReveal();
+ensureInstagramFooterLink();
 
 // Carregamento dinâmico e sincronização de conteúdo publicado pelo CMS no servidor
 async function syncPublishedContent() {
@@ -551,6 +568,7 @@ syncPublishedContent();
         }
       });
       footerInfo.appendChild(installLink);
+      ensureInstagramFooterLink();
     }
   });
 
